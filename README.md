@@ -1,5 +1,5 @@
 # NHR Summer School 2023 - Data-Parallel Neural Networks in `PyTorch`
-This repository contains the materials for the workshop on "Data-Parallel Neural Networks in `PyTorch`" at the NHR Summer School 2023.  
+This repository contains the materials for the workshop on "Data-Parallel Neural Networks in `PyTorch`" at the NHR Summer School 2023. 
 You can find the complete program [here](https://moodle.nhr.fau.de/course/view.php?id=117).
 
 ### Program for Thursday, June 15, 2023
@@ -44,4 +44,4 @@ You can find the corresponding solution in the notebook `notebook/solution_seria
 ## Hands-on Session: `Pytorch DistributedDataParallel`
 In this hands-on tutorial, you will learn how to train a data-parallel neural network using `PyTorch`'s `DistributedDataParallel` package. 
 You can find the corresponding exercises and solutions in `notebook/lueckentext_ddp.ipynb` and `notebook/solution_ddp.ipynb`, respectively. 
-You can work on and develop your code in the `lueckentext_ddp.ipynb` notebook using the same setup as before. However, truly parallel runs are inconvenient in Jupyter notebooks. This is why you need to create Python scripts from the code snippets as well as a job script to test and actually run your code in parallel as a batch job on Noctua2. You can find step-by-step instructions for how to do this in the exercises notebook.
+You can work on and develop your code in the `lueckentext_ddp.ipynb` notebook using the same setup as before. However, truly parallel runs are inconvenient in Jupyter notebooks. This is why you need to create Python scripts from the code snippets as well as a job script to test and actually run your code in parallel as a batch job on Noctua2. You can find step-by-step instructions for how to do this in the exercises notebook. The actual `Python` and SLURM job scripts are in `py/` and `sh/`, respectively.
