@@ -1,3 +1,4 @@
 /notebook/*.pt
 /notebook/.ipynb_checkpoints/
 /notebook/data/
+/notebook/*.drawio
