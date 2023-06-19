@@ -8,7 +8,7 @@
 #SBATCH --account=hpc-prf-nhrgs
 #SBATCH --ntasks-per-node=4
 #SBATCH --output=/scratch/hpc-prf-nhrgs/mweiel/res/slurm-%j.out
-#SBATCH --mail-user=marie.weiel@kit.edu  # adjust this to match your email address
+#SBATCH --mail-user=...  # adjust this to match your email address
 #SBATCH --mail-type=ALL
 
 module purge
